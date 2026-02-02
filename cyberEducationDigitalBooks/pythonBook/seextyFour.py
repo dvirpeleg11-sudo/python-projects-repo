@@ -123,8 +123,15 @@ def mix_up(a, b):
 def verbing(s):
     """ your docstring here """
     # +++your code here+++
-    return
 
+    if len(s) >= 3:
+        if s[-3:] == "ing":
+            s += "ly"
+            return s
+        else:
+            s += "ing"
+            return s
+    return s
 
 # F. not_bad
 # Given a string, find the first appearance of the
@@ -139,7 +146,25 @@ def verbing(s):
 def not_bad(s):
     """ your docstring here """
     # +++your code here+++
-    return
+    
+    foundNot = False
+    foundBad = False
+    
+    idxfirstNot = 0
+    idxLastNot = 0
+    
+    for i in range(3, len(s) + 1):
+        if s[i - 3: i] == "not":
+            foundNot = True
+            idxfirstNot = i - 3
+            idxLastNot = i
+            
+        elif s[i - 3: i] == "bad":
+            if foundNot:
+                s = s.replace(s[idxfirstNot:i], "good")
+                return s
+    return s
+    
 
 
 # G. front_back
@@ -154,7 +179,24 @@ def not_bad(s):
 def front_back(a, b):
     """ your docstring here """
     # +++your code here+++
-    return
+    a_length = len(a)
+    b_length = len(b)
+    
+    if a_length % 2 == 0: 
+        a_front = a[:len(a) // 2]
+        a_back = a[len(a) // 2:]
+    else:
+        a_front = a[:len(a) // 2 + 1]
+        a_back = a[len(a) // 2 + 1:]
+    
+    if b_length % 2 == 0: 
+        b_front = b[:len(b) // 2]
+        b_back = b[len(b) // 2:]
+    else:
+        b_front = b[:len(b) // 2 + 1]
+        b_back = b[len(b) // 2 + 1:]
+    
+    return a_front + b_front + a_back + b_back
 
 
 # Provided simple test() function used in main() to print
