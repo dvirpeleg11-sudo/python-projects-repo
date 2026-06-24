@@ -45,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.aliceDict.executor": "Run",
     "Python.assertExcersise.executor": "Run",
     "Python.copyingMachine.executor": "Run",
     "Python.filesExcersise.executor": "Run",
@@ -61,6 +62,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dvir\computerScience\פרויקטיים עצמאיים\pythonProjectsWithGit\cyberEducationDigitalBooks\pythonBook\oppExcersises\polymorphismExcersise" />
       <recent name="C:\Dvir\computerScience\פרויקטיים עצמאיים\pythonProjectsWithGit\cyberEducationDigitalBooks\pythonBook\basics" />
       <recent name="C:\Dvir\computerScience\פרויקטיים עצמאיים\pythonProjectsWithGit\cyberEducationDigitalBooks\pythonBook\filesExcersises" />
     </key>
