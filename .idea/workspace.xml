@@ -46,10 +46,13 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.aliceDict.executor": "Run",
+    "Python.antyB.executor": "Run",
     "Python.assertExcersise.executor": "Run",
+    "Python.avgTwoLists.executor": "Run",
     "Python.copyingMachine.executor": "Run",
     "Python.filesExcersise.executor": "Run",
     "Python.main_of_plane.executor": "Run",
+    "Python.multipleLetter.executor": "Run",
     "Python.plane.executor": "Run",
     "Python.seventyFive.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
