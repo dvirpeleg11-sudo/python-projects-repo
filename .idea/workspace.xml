@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11b22fa6-4e7a-4902-9bcb-ab7e76352877" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/פרויקטים בפייתון.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyberEducationDigitalBooks/pythonBook/basicExcersises/seventyFive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcircle/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filesHandling&amp;Threads/shopingList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filesHandling&amp;Threads/shopingList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filesHandling&amp;Threads/shopingListProgram.py" beforeDir="false" afterPath="$PROJECT_DIR$/filesHandling&amp;Threads/shopingListProgram.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +31,12 @@
     &quot;assignee&quot;: &quot;dvirpeleg11-sudo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/dvirpeleg11-sudo/pythonProjects.git&quot;,
-    &quot;accountId&quot;: &quot;e5fab631-55b0-4497-906e-65d3b010d1c1&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dvirpeleg11-sudo/pythonProjects.git",
+    "accountId": "da1aca6c-fe84-488d-88b3-c955ac30b791"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -55,6 +52,7 @@
     "Python.antyB.executor": "Run",
     "Python.assertExcersise.executor": "Run",
     "Python.avgTwoLists.executor": "Run",
+    "Python.celsius_program.executor": "Run",
     "Python.client.executor": "Run",
     "Python.clientSocket.executor": "Run",
     "Python.copyingMachine.executor": "Run",
@@ -62,13 +60,14 @@
     "Python.filesExcersise.executor": "Run",
     "Python.firstClientSocket.executor": "Run",
     "Python.firstServerSocket.executor": "Run",
+    "Python.inputCountdown.executor": "Run",
     "Python.main_of_plane.executor": "Run",
     "Python.multipleLetter.executor": "Run",
     "Python.onlyDivideThree.executor": "Run",
     "Python.plane.executor": "Run",
     "Python.serverSocket.executor": "Run",
     "Python.seventyFive.executor": "Run",
-    "Python.shopingListProgram.executor": "Debug",
+    "Python.shopingListProgram.executor": "Run",
     "Python.threadExercise.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -117,7 +116,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
       </set>
     </attachedChunks>
   </component>

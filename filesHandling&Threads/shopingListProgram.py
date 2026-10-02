@@ -5,12 +5,12 @@ with open(r"shopingList.txt", "r") as shopping_list_file:
 
     items = shopping_list_file.read().splitlines()
 
-items.sort()
+print("before sorting:")
 
 for item in items:
     print(item)
 
-items.append("an_additional_item")
+items.sort()
 
 # "w" overwrites the file if it already exists
 # by default, the file will be created in the same folder as this program.
@@ -21,7 +21,15 @@ items.append("an_additional_item")
 with open(r"sortedFile.txt", "w") as sorted_shoping_list_file:
     # join doesn't join one string to another. It joins all the items of a list into one string,
     # and the string you call it on goes between the items.
-    sorted_shoping_list_file.write("".join(items))
+    sorted_shoping_list_file.write("\n".join(items))
 
 with open(r"sortedFile.txt", "a") as sorted_shoping_list_file:
-    sorted_shoping_list_file.write("an_additional_item")
+    sorted_shoping_list_file.write("\nan_additional_item")
+
+with open(r"sortedFile.txt", "r") as sorted_shoping_list_file:
+
+    items = sorted_shoping_list_file.read().splitlines()
+
+    print("after sorting:")
+    for item in items:
+        print(item)

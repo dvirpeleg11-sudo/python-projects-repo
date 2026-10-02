@@ -1,0 +1,4 @@
+bread
+eggs
+milk
+an_additional_item
